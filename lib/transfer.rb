@@ -11,7 +11,7 @@ class Transfer
   end 
   
   def valid? 
-    self.receiver.valid?
+    self.receiver.valid? && self.sender.valid?
   end
     
 end
