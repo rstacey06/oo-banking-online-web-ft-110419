@@ -10,7 +10,7 @@ class Transfer
     @status = "pending" 
   end 
   
-  def valid? 
+  def valid? #if both receiver/sender are valid return T 
     self.receiver.valid? && self.sender.valid?
   end
    
