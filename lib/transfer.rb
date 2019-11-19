@@ -26,6 +26,6 @@ class Transfer
    
    def reject_transfer
      self.status = "rejected"
-     
+   end
 end
 
